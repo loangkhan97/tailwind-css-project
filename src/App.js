@@ -1,25 +1,34 @@
-import React from "react";
+import { useEffect } from "react";
+import Aos from "aos"
+
+import "./app.css"
+
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/UI/Hero";
+import Services from "./components/UI/Services";
 
 
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div class="mx-w py-5 text-white max-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
-		<div class="bg-[green] col-span-4 row-span-6 text-center">Header</div>
-		<div >
-    
-    <div>
-    <div class="bg-[green] col-sppan-2 text-center">Navbar</div>
-    </div>
-		<div>
-    <div class="bg-[green] py-5 text-center">Hello</div>
-		<div class="bg-[green] py-5 text-center">Hello</div>
-		
-    </div>
-	</div>
-  </div>
+   <>
+   < Header />
 
+    <main>
+      < Hero />
+      < Services />
+    </main>
+
+   < Footer />
+   </>
   );
+   
+		
+  
 }
 
 export default App;
