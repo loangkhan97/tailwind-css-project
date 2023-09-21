@@ -1,9 +1,43 @@
 
 
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 
 const Header = () => {
-  return <header className="w-full h-[80px] leading-[80px] flex items-center">
+
+    const headerRef = useRef(null)
+    const menuRef = useRef(null)
+
+    const stickyHeaderFunc = () => {
+        window.addEventListener('scroll', () => {
+            if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+                headerRef.current.classList.add("sticky__header");
+            } else {
+                headerRef.current.classList.remove("sticky__header")
+            }
+        });
+    };
+
+    useEffect(()=> {
+        stickyHeaderFunc()
+
+        return window.removeEventListener('scroll', stickyHeaderFunc)
+    }, []);
+
+    const handleClick = e =>{
+        e.preventDefault()
+
+        const targetAttr = e.target.getAttribute('href');
+        const location = document.querySelector(targetAttr).offsetTop;
+
+        window.scrollTo({
+            top: location - 80,
+            left: 0,
+        });
+    };
+
+    const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
+
+  return <header ref={headerRef} className="w-full h-[80px] leading-[80px] flex items-center">
     <div className="container">
         <div className="flex items-center justify-between">
             {/*================ Logo ========== */}
@@ -19,12 +53,12 @@ const Header = () => {
             {/*==========logo end ========== */}
 
             {/*==========Menu Start ============== */}
-            <div className="menu">
+            <div className="menu" ref={menuRef} onClick={toggleMenu}>
                 <ul className='flex items-center gap-10'>
-                    <li><a className='text-smallTextColor font-[600]' href="#about">About</a></li>
-                    <li><a className='text-smallTextColor font-[600]' href="#services">Services</a></li>
-                    <li><a className='text-smallTextColor font-[600]' href="#portfolio">Portfolio</a></li>
-                    <li><a className='text-smallTextColor font-[600]' href="#contact">Contact</a></li>
+                    <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#about">About</a></li>
+                    <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#services">Services</a></li>
+                    <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#portfolio">Portfolio</a></li>
+                    <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#contact">Contact</a></li>
                 </ul>
             </div>
              {/*==========Menu End ============== */}
@@ -35,9 +69,9 @@ const Header = () => {
                 <i class="ri-send-plane-line"></i> Let's Talk
                 </button>
 
-                <span className='text-2xl text-smallTextColor md:hidden cursor-pointer'><i class="ri-menu-line"></i></span>
+                <span onClick={toggleMenu} className='text-2xl text-smallTextColor md:hidden cursor-pointer'><i class="ri-menu-line"></i></span>
               </div>
-               {/*==========Menu right ============== */}
+               {/*==========Menu right end ============== */}
         </div>
     </div>
   </header>
