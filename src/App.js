@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect } from "react";
 import Aos from "aos"
 
@@ -29,6 +30,16 @@ function App() {
    
 		
   
+=======
+import Home from "./components/home/Home";
+
+function App() {
+  return (
+    <div className="App">
+    <Home/>
+    </div>
+  );
+>>>>>>> master
 }
 
 export default App;

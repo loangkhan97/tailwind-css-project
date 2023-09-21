@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+<<<<<<< HEAD
     extend: {
       colors: {
         primaryColor: "#8873ef",
@@ -14,3 +15,10 @@ module.exports = {
   },
   plugins: [],
 }
+=======
+    extend: {},
+  },
+  plugins: [],
+}
+
+>>>>>>> master
