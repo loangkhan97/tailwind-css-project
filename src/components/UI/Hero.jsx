@@ -42,9 +42,10 @@ const Hero = () => {
                 className='flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
                 >
                     <span><i class="ri-apps-line"></i></span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Tenetur impedit nemo
-                    repudiandae eveniet in <br />temporibus 
-                    tempora nobis eligendi officia.
+                    " Coding Dreams into Reality: I'm a dedicated software engineer with a passion for crafting digital solutions that push the boundaries of technology. 
+                    From designing elegant algorithms to building user-centric applications, I thrive on turning complex challenges into seamless experiences. 
+                    With a keen eye for detail and a commitment to innovation, I'm on a mission to shape the digital landscape, one line of code at a time. 
+                    Welcome to my world of endless possibilities."
                 </p>
                 <div className="flex items-center gap-9 mt-14">
                     <span className="text-smallTextColor text-[15px] font-[600]">
@@ -56,7 +57,7 @@ const Hero = () => {
                    </a>
                     </span>
                     <span>
-                   <a href="#" className='text-smallTextColor text-[18px] font-[600]'> 
+                   <a href="https://github.com/loangkhan97" className='text-smallTextColor text-[18px] font-[600]'> 
                    <i class="ri-github-fill"></i>
                    </a>
                     </span>

@@ -13,7 +13,7 @@ const Services = () => {
                 <p className="text-headingColor font-[500] text-[16px] lg:max-w-[600px] lg:mx-auto  leading-7">
                     Here, I can highlight how can I contribute as a software engineer. I assist in creating innovative and efficient 
                     software solutions that meet specific business needs. My expertise includes designing, developing, and maintaining
-                    software applications, ensuring they are reliable, and user-friendly. I collaborate with cross-functional teams to delfa-inverse
+                    software applications, ensuring they are reliable, and user-friendly. I collaborate with cross-functional teams to deliver
                     high quality products on time and within budget, ultimately helping organizations achieve their technological goals and stay competitive 
                     in the ever-evolving digital landscape. My expertise and services listed below:
 

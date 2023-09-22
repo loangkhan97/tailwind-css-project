@@ -22,10 +22,7 @@ const Footer = () => {
 
         <div className="w-full sm:w-1/2">
           <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Laborum dolor est omnis commodi et at alias cum accusantium 
-            maiores eum. Quos repudiandae vero iusto, ipsum deserunt optio eos.
-            Impedit, exercitationem!
+          "Passionate Software Engineer ⚙️ | Building Innovative Solutions with Code 🚀 | Transforming Ideas into Reality 💡 | Let's Collaborate and Shape the Future Together! 🌟"
           </p>
           <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
             <span className='text-gray-300 font-[600] text-[15px]'>
