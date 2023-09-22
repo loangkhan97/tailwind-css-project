@@ -11,11 +11,13 @@ const Services = () => {
             <div className="text-center">
                 <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">What do I help</h2>
                 <p className="text-headingColor font-[500] text-[16px] lg:max-w-[600px] lg:mx-auto  leading-7">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Harum maiores mollitia incidunt reprehenderit aspernatur nesciunt
-                    ipsum dolor sit amet consectetur adipisicing elit. 
-                    Harum maiores mollitia incidunt reprehenderit aspernatur nesciunt
-                    odio delectus ipsum, </p>
+                    Here, I can highlight how can I contribute as a software engineer. I assist in creating innovative and efficient 
+                    software solutions that meet specific business needs. My expertise includes designing, developing, and maintaining
+                    software applications, ensuring they are reliable, and user-friendly. I collaborate with cross-functional teams to delfa-inverse
+                    high quality products on time and within budget, ultimately helping organizations achieve their technological goals and stay competitive 
+                    in the ever-evolving digital landscape. My expertise and services listed below:
+
+                    </p>
             </div>
 
             <div className="flex flex-col justify-center sm:py-12">
@@ -34,7 +36,7 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pr-8">
                                         <div data-aos="fade-right" data-aos-duration="1200" className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">Frontend Developer</h3>
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. commodi.</p>
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have developed many projects and design templates using different technologies and tools like ReactJS, NextJS, PHP Laravel and Tailwind.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +57,7 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1300" className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">Backend Developer</h3>
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. rem quaerat saepe commodi.</p>
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have worked as Backend Developer and build projects using NodeJS, Express, Laravel and Databases like MongoDB, MySql.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +78,7 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pr-8">
                                         <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1300" className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">UI/UX Designer</h3>
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. totam officia. commodi.</p>
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have build many designs and templates using Figma, Canva, Illustrator, and Photoshop.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +99,7 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos="fade-left" data-aos-delay="150" data-aos-duration="1500" className='bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">Apps Development</h3>
-                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  officia. rem quaerat saepe commodi.</p>
+                                            <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>I have little bit worked on android app development and build 5+ android applications .</p>
                                         </div>
                                     </div>
                                 </div>
