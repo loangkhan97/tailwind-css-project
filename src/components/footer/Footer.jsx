@@ -86,9 +86,9 @@ const Footer = () => {
                 <h2 className='text-gray-200 font-[500] text-[18px]'>
                 Loang
                 </h2>
-                <p className="text-gray-400 text-[14px] font-[500]">
+                {/* <p className="text-gray-400 text-[14px] font-[500]">
                   Personal
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
